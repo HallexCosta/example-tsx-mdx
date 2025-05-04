@@ -2,35 +2,35 @@
 
 # Example TSX + MDX Project
 
-Este projeto é um exemplo de aplicação React utilizando:
+This project is a sample React application using:
 
-- **React** com **TypeScript** (TSX)
-- **MDX** para páginas de conteúdo ricas
-- **Vite** como bundler
-- **Tailwind CSS** para estilização
-- **PNPM** como gerenciador de pacotes
+- **React** with **TypeScript** (TSX)
+- **MDX** for rich content pages
+- **Vite** as the bundler
+- **Tailwind CSS** for styling
+- **PNPM** as the package manager
 
-## Como rodar localmente
+## How to run locally
 
-1. Instale as dependências:
+1. Install dependencies:
    ```sh
    pnpm install
    ```
-2. Inicie o servidor de desenvolvimento:
+2. Start the development server:
    ```sh
    pnpm dev
    ```
-3. Acesse em [http://localhost:5173](http://localhost:5173)
+3. Access at [http://localhost:5173](http://localhost:5173)
 
-## Estrutura
-- `src/components/DocumentPage.tsx`: Exemplo de página em TSX
-- `src/components/DocumentPage.mdx`: Exemplo de página em MDX
-- `src/components/mdx/`: Componentes customizados para uso em MDX
+## Structure
+- `src/components/DocumentPage.tsx`: Example of a TSX page
+- `src/components/DocumentPage.mdx`: Example of an MDX page
+- `src/components/mdx/`: Custom components for use in MDX
 
-## Observações
-- O projeto suporta frontmatter em arquivos MDX (via `remark-frontmatter`).
-- Componentes React podem ser usados diretamente dentro do MDX.
-- Teste e explore MDX online no [MDX Playground](https://mdxjs.com/playground/).
+## Notes
+- The project supports frontmatter in MDX files (via `remark-frontmatter`).
+- React components can be used directly inside MDX.
+- Test and explore MDX online at the [MDX Playground](https://mdxjs.com/playground/).
 
 ---
-Sinta-se à vontade para adaptar este projeto para suas necessidades! 
+Feel free to adapt this project to your needs! 
