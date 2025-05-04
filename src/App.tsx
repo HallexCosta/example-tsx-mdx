@@ -29,7 +29,6 @@ const components = {
 const App: React.FC = () => {
   return (
     <MDXProvider components={components}>
-      <h2>Hello</h2>
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-8">TSX vs MDX Comparison</h1>
         
