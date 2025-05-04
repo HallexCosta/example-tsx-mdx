@@ -1,7 +1,7 @@
 import React from 'react';
 import { MDXProvider } from '@mdx-js/react';
 import DocumentPage from './components/DocumentPage';
-import MDXDocument from './components/DocumentPage.mdx';
+import MDXDocument, { meta, frontmatter } from './components/DocumentPage.mdx';
 import InfoBox from './components/mdx/InfoBox';
 import FeatureList from './components/mdx/FeatureList';
 import CodeExample from './components/mdx/CodeExample';
@@ -27,6 +27,9 @@ const components = {
 };
 
 const App: React.FC = () => {
+
+  console.log({ meta, frontmatter });
+
   return (
     <MDXProvider components={components}>
       <div className="container mx-auto px-4 py-8">

@@ -7,11 +7,11 @@ lastUpdated: "2025-05-04"
 
 export const meta = {
   title: "Terms of Service and Privacy Policy",
-  creationAt: "2025-05-04",
-  lastUpdated: "2025-05-04"
 };
 
-# {meta.title}
+# {frontmatter.title}
+
+{frontmatter.description}
 
 ## 1. Introduction
 
@@ -70,8 +70,8 @@ For questions regarding these terms, contact us at [legal@company.com](mailto:le
 or by phone at (11) 1234-5678.
 
 <LegalNotice>
-  This document was last updated on {meta.lastUpdated}.
-  We recommend checking periodically for updates.
+  This document was last updated on {frontmatter.lastUpdated}.
+  Document creation at {frontmatter.creationAt}
 </LegalNotice>
 
 <LegalSection>
@@ -94,4 +94,4 @@ or by phone at (11) 1234-5678.
   </ol>
 </TableOfContents> 
 
-Document creation at {meta.creationAt}
+Document creation {frontmatter.creationAt}

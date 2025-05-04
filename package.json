@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "remark-mdx-frontmatter": "^5.1.0"
   },
   "devDependencies": {
     "@mdx-js/react": "^3.0.0",
