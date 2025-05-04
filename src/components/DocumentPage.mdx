@@ -1,10 +1,17 @@
 ---
 title: "Terms of Service and Privacy Policy"
 description: "Terms and conditions for using the platform and privacy policy"
-lastUpdated: "2024-03-19"
+creationAt: "2025-05-04"
+lastUpdated: "2025-05-04"
 ---
 
-# Terms of Service and Privacy Policy
+export const meta = {
+  title: "Terms of Service and Privacy Policy",
+  creationAt: "2025-05-04",
+  lastUpdated: "2025-05-04"
+};
+
+# {meta.title}
 
 ## 1. Introduction
 
@@ -63,7 +70,7 @@ For questions regarding these terms, contact us at [legal@company.com](mailto:le
 or by phone at (11) 1234-5678.
 
 <LegalNotice>
-  This document was last updated on {new Date().toLocaleDateString('en-US')}.
+  This document was last updated on {meta.lastUpdated}.
   We recommend checking periodically for updates.
 </LegalNotice>
 
@@ -86,3 +93,5 @@ or by phone at (11) 1234-5678.
     <li><a href="#contact">Contact</a></li>
   </ol>
 </TableOfContents> 
+
+Document creation at {meta.creationAt}
